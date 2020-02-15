@@ -1,0 +1,53 @@
+#create a project
+https://docs.djangoproject.com/en/3.0/intro/tutorial01/
+
+
+#write the home page
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page # haven't tested
+
+
+#connect with mysql (doesn't have to be done after creating a project)
+
+https://data-flair.training/blogs/django-database/
+## now I know pymysql might conflict with mysqlclient. If using mysqlclient, I better uninstall pymysql
+## In the above article it doesn't specify the name of the database and password. There will be an error if I don't specify them
+
+
+##recycle bin
+##https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database 
+## much stuff in it is unnecessary + at the end I am not sure it really verifies the connection to mysql
+
+
+
+# show a table by a package:
+##https://django-tables2.readthedocs.io/en/latest/pages/tutorial.html
+
+
+
+# show a table from mysql
+
+https://www.plus2net.com/python/dj-mysql.php
+##In this one the order of these 2 should be changed: 
+##python manage.py migrate
+##python manage.py makemigrations
+
+https://www.plus2net.com/python/dj-mysql-display.php 
+##problematic tutorial. Typo(s) found and the worst thing: starting from the html page, the code doesn't work anymore. I have tried 3 times and it consistently didn't work.
+
+
+
+
+# ================
+
+start running a website by:
+cd into the project folder
+python manage.py runserver
+
+stop running a website by:
+Ctrl-C #alternative if Ctrl-C doesn't work: pkill -f runserver
+
+default url:
+http://127.0.0.1:8000
+
+# ================
+
